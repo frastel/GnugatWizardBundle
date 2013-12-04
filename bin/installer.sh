@@ -7,7 +7,7 @@ if ! hash "composer" 2>/dev/null && ! hash "composer.phar" 2>/dev/null; then
 fi
 
 echo '[composer] Downloading the bundle'
-composer require "gnugat/wizard-bundle:~1"
+composer require "gnugat/wizard-bundle:fix/stability-17-dev"
 
 PHP_VERSION=`php -v`
 PHP_OPEN_TAG=''
